@@ -26,7 +26,7 @@ export default function Navigation({ links, isMenuOpen, setIsMenuOpen }: Navigat
     <Section
       data-menuopened={isMenuOpen}
       className="!w-full bg-[#F8F5F380] shadow-md"
-      containerClassName="flex justify-between items-center py-5` max-lg:p-5"
+      containerClassName="flex justify-between items-center py-5 max-lg:p-5"
     >
       <Link href="/">
         <img src="gather.svg" alt="logo"  className="w-40 lg:w-auto "/>
