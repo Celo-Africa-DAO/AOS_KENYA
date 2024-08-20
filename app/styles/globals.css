@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body{
   font-family: "Inter", "sans-serif" !important;
-  background-color: #FCF6F1;
+  background-color:#efe8e0;
 }
 
 @font-face {
@@ -43,8 +42,7 @@ body{
 @layer base {
   :root {
     --Celo-AD-primary: #FCF6F1;
-    --Celo-AD-yellow:  #FCFF52;
-;
+    --Celo-AD-yellow: #FCFF52;
 
     --Celo-AD-dark-green: #476520;
     --Celo-AD-gray: #DEE2D8;
@@ -113,7 +111,9 @@ body{
 }
 
 @layer base {
-
+  * {
+    @apply border-border;
+  }
 
   body {
     @apply bg-background text-foreground;

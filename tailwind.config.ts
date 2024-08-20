@@ -15,10 +15,11 @@ const config: Config = {
       fontFamily: {
         "space-grotesk": "space-grotesk",
         display: ["Inter", "sans-serif"],
-        "gt-alpina-trial": ["GT Alpina Trial", "sans-serif"],
+        "gt-alpina-trial": [
+          "GT-Alpina-Standard-Thin-Italic-Trial",
+        ],
         "gt-alpina": ["GT-Alpina", "sans"],
         "GT-Alpina": "GT-Alpina",
-        
       },
       colors: {
         "Celo-AD-primary": "#FCF6F1",
