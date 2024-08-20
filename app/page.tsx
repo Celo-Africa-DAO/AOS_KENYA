@@ -8,12 +8,13 @@ import Speakers from "./components/Speakers";
 import Schedule from "./components/Schedule";
 import Why from "./components/why";
 import Footer from "./components/Footer";
+import Hero from "./components/Hero";
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const links = [
-    { to: "#sbout", text: "About" },
+    { to: "#about", text: "About" },
     {
       to: "#Sponsors",
       text: "Sponsors",
@@ -21,8 +22,6 @@ export default function Home() {
     { to: "#Speakers", text: "Speakers" },
     { to: "#Schedule", text: "Schedule" },
   ];
-
-  console.log(isMenuOpen);
 
   return (
     <div className="bg-[#efe8e0]">
@@ -32,9 +31,9 @@ export default function Home() {
         setIsMenuOpen={setIsMenuOpen}
       />
       <SideMenu isMenuOpen={isMenuOpen} links={links} />
+      <Hero />
       <About />
       <Speakers />
-      <Schedule />
       <Why />
       <Footer />
       <hr className="text-black bg-black p-[0.5px]" />

@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="p-40 text-white overflow-x-hidden bg-cover bg-center px-[1rem] md:px-[10rem]"
+      className="-mb-[50px] sm:-mb-0  p-40 text-white overflow-x-hidden bg-cover bg-center px-[1rem] md:px-[10rem]"
       style={{ backgroundImage: "url(img/AOS.png)" }}
     >
       <Section

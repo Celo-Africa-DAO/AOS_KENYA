@@ -15,7 +15,7 @@ export default function Section({
     <section {...props}>
       <div
         className={cn(
-          "max-w-5xl xl:max-w-7xl mx-auto relative",
+          "max-w-5xl xl:max-w-7xl mx-auto relative ",
           containerClassName
         )}
       >

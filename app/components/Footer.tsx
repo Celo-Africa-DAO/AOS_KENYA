@@ -7,7 +7,7 @@ const Footer = () => {
     <Section
       data-menuopened={true}
       className="!w-full"
-      containerClassName=" my-20 lg:my-0 lg:py-20 max-lg:p-5 bg-[#efe8e0]"
+      containerClassName="py-0 my-20 lg:my-0 lg:py-20 max-lg:p-5 bg-[#efe8e0]"
     >
       <h2 className="font-gt-alpina-trial text-4xl pb-10 text-center">
         <p className="!font-[250]">Get more insight and updates</p>

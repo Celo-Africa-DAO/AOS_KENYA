@@ -5,7 +5,7 @@
 
 body{
   font-family: "Inter", "sans-serif" !important;
-  background-color:#efe8e0;
+  background-color:#efe8e0 !important;
 }
 
 @font-face {

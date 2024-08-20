@@ -6,7 +6,7 @@ const why = () => {
     const fakeArray = Array(4).fill(null);
   return (
     <div
-      className="p-40 text-white overflow-x-hidden bg-cover bg-center px-[1rem] md:px-[10rem]"
+      className="-mb-56 sm:-mb-0 p-40 text-white overflow-x-hidden bg-cover bg-center px-[1rem] md:px-[10rem]"
       style={{ backgroundImage: "url(img/AOS.png)" }}
     >
       <Section
