@@ -19,10 +19,12 @@ const Hero = () => {
         </p>
         <div className="flex gap-6 justify-center lg:justify-start">
           <Button className="text-black font-Inter mt-4 bg-Celo-AD-yellow px-10 py-2 hover:bg-Celo-AD-yellow rounded-3xl">
-            View Deck
+            <a href="celo gather Africa.pdf" target="_blank">
+              View Deck
+            </a>
           </Button>
           <Button className="text-black font-Inter mt-4 bg-Celo-AD-yellow px-10 py-2 hover:bg-Celo-AD-yellow rounded-3xl">
-            Sponsor Us
+            <a href="mailto:daniel.kimotho@celo.org">Sponsor Us</a>
           </Button>
         </div>
       </div>

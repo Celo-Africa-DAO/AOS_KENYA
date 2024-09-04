@@ -28,7 +28,12 @@ const About = () => {
               decentralized finance (DeFi) on the Celo blockchain.{" "}
             </p>
             <Button className="hidden text-black lg:block font-Inter mt-10 bg-Celo-AD-yellow px-10 hover:bg-Celo-AD-yellow rounded-3xl">
-              Sign-Up
+              <a
+                href={"https://lu.ma/calendar/cal-SiR9cdTHKv60Ffa"}
+                target="_blank"
+              >
+                Sign-Up
+              </a>
             </Button>
           </div>
           <img src="Map.png" alt="map" className="w-180  sm:h-60" />

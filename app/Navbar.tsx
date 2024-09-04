@@ -16,12 +16,16 @@ export type HeaderLink = {
 type NavigationProps = {
   links: HeaderLink;
   isMenuOpen: boolean;
-  setIsMenuOpen: any|ReactNode;
+  setIsMenuOpen: any | ReactNode;
 };
 
-export default function Navigation({ links, isMenuOpen, setIsMenuOpen }: NavigationProps) {
-    console.log(isMenuOpen);
-    
+export default function Navigation({
+  links,
+  isMenuOpen,
+  setIsMenuOpen,
+}: NavigationProps) {
+  console.log(isMenuOpen);
+
   return (
     <Section
       data-menuopened={isMenuOpen}
@@ -29,7 +33,7 @@ export default function Navigation({ links, isMenuOpen, setIsMenuOpen }: Navigat
       containerClassName="flex justify-between items-center py-5 max-lg:p-5"
     >
       <Link href="/">
-        <img src="gather.svg" alt="logo"  className="w-40 lg:w-auto "/>
+        <img src="gather.svg" alt="logo" className="w-40 lg:w-auto " />
       </Link>
       <div className="flex items-center gap-3 text-[#000000]">
         <div className="relative px-2 hidden lg:flex">
@@ -47,7 +51,12 @@ export default function Navigation({ links, isMenuOpen, setIsMenuOpen }: Navigat
           </div>
         </div>
         <Button className="hidden text-black lg:block font-Inter bg-Celo-AD-yellow px-10 hover:bg-Celo-AD-yellow rounded-3xl">
-          Sign-Up
+          <a
+            href={"https://lu.ma/calendar/cal-SiR9cdTHKv60Ffa"}
+            target="_blank"
+          >
+            Sign-Up
+          </a>
         </Button>
 
         <button
