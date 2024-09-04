@@ -1,5 +1,6 @@
 import React from "react";
 import Section from "./ui/Section";
+import { title } from "process";
 
 interface GalleryItemProps {
   name: string;
@@ -13,7 +14,7 @@ const GalleryItem: React.FC<GalleryItemProps> = ({ name, title, imageUrl }) => {
       <img
         src={imageUrl}
         alt={name}
-        className="rounded-lg w-full h-auto object-cover"
+        className="rounded-lg w-full h-[380px] object-cover"
       />
       <h3 className="mt-4 font-semibold text-lg">{name}</h3>
       <p className="text-sm text-gray-600">{title}</p>
@@ -24,44 +25,49 @@ const GalleryItem: React.FC<GalleryItemProps> = ({ name, title, imageUrl }) => {
 const Speakers: React.FC = () => {
   const items = [
     {
+      name: "Umar",
+      title: "Celo Africa",
+      imageUrl: "/img/umar.jpg",
+    },
+    {
+      name: " Joan",
+      title: "Celo Europe DAO",
+      imageUrl: "/img/jona.jpeg",
+    },
+    {
+      name: " Isha V",
+      title: "Celo Foundation",
+      imageUrl: "/img/isha.jpg",
+    },
+    {
       name: "Duncan Muchangi",
-      title: "Head of BD, Fonbuk",
-      imageUrl: "/img/duncan.png",
+      title: "Head of BD Fonbnk",
+      imageUrl: "/img/ducan.jpeg",
     },
     {
-      name: "Trevor Kimani",
-      title: "CEO And Co-Founder AlphabioQ",
-      imageUrl: "/img/trevor.png",
+      name: "George Mosomi",
+      title: "--",
+      imageUrl: "/img/you.jpeg",
     },
     {
-      name: "S. A. Kakai",
-      title: "Crypto Regulation Expert",
-      imageUrl: "/img/kakai.png",
+      name: "Derrick Bundi",
+      title: "Founder &CEO Pretium Finance",
+      imageUrl: "/img/pretium.jpeg",
     },
     {
-      name: "Jovan Mwesigwa",
-      title: "Founder Oneramp",
-      imageUrl: "/img/jova.png",
+      name: "Abidemi Adenle",
+      title: "Investment Analyst,KeppleAfrica Ventures",
+      imageUrl: "/img/Abidemi.jpeg",
     },
     {
-      name: "Eliash Ezron",
-      title: "Co-Founder Shukuru",
-      imageUrl: "/img/Herzron.png",
+      name: "Markus Frank",
+      title: "CEO mento labs",
+      imageUrl: "/img/markus.webp",
     },
     {
-      name: "James Mugambi",
-      title: "COO And Co-Founder Of Hurupay",
-      imageUrl: "/img/james.png",
-    },
-    {
-      name: "Adelapo Adeagbo",
-      title: "CEO And Co-Founder Bitgifty",
-      imageUrl: "/img/ado.png",
-    },
-    {
-      name: "Joshua C. Tebepina",
-      title: "Co-Founder Bingtelier",
-      imageUrl: "/img/joshua.png",
+      name: "Reuven Palatnik",
+      title: "Credit collective ",
+      imageUrl: "/img/colletive.jpeg",
     },
   ];
 

@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      borderRadius: {
+        "custom-radius": "30% 70% 70% 30% / 30% 30% 70% 70% ",
+      },
       screens: {
         "2xsm": "381px",
         xsm: "425px",
@@ -15,9 +18,7 @@ const config: Config = {
       fontFamily: {
         "space-grotesk": "space-grotesk",
         display: ["Inter", "sans-serif"],
-        "gt-alpina-trial": [
-          "GT-Alpina-Standard-Thin-Italic-Trial",
-        ],
+        "gt-alpina-trial": ["GT-Alpina-Standard-Thin-Italic-Trial"],
         "gt-alpina": ["GT-Alpina", "sans"],
         "GT-Alpina": "GT-Alpina",
       },
@@ -63,11 +64,6 @@ const config: Config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-      },
-      borderRadius: {
-        lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
         "accordion-down": {

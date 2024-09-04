@@ -3,7 +3,7 @@ import Section from "./ui/Section";
 import { Button } from "./ui/button";
 
 const why = () => {
-    const fakeArray = Array(4).fill(null);
+
   return (
     <div
       className="-mb-56 sm:-mb-0 p-40 text-white overflow-x-hidden bg-cover bg-center px-[1rem] md:px-[10rem]"
@@ -35,26 +35,6 @@ const why = () => {
             alt="map"
             className="w-auto sm:w-180 h-auto sm:h-60"
           />
-        </div>
-        <div>
-          <h2
-            id="Sponsors"
-            className="font-gt-alpina-trial text-4xl pt-20 lg:pt-0 pb-10"
-          >
-            <p className="!font-[250]">
-              <i>Event Sponsors</i>
-            </p>
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-            {fakeArray.map((_, index) => (
-              <div
-                key={index}
-                className="border-[#E4E4CF] border p-4 rounded shadow-md"
-              >
-                <p className="text-gray-600 p-10"></p>
-              </div>
-            ))}
-          </div>
         </div>
       </Section>
     </div>
