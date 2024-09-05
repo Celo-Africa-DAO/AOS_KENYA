@@ -35,6 +35,7 @@ export default function Home() {
       <About />
       <Speakers />
       <Why />
+      <Schedule />
       <Footer />
       <hr className="text-black bg-black p-[0.5px]" />
       <div className=" pb-4 flex items-center justify-center w-full">
