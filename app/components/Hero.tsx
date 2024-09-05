@@ -10,7 +10,7 @@ const Hero = () => {
     >
       <div className=" lg:pt-10">
         <img
-          src="hero.svg"
+          src="/img/hero.svg"
           alt="Gather Logo"
           className="w-[80%] md:w-[68%] h-[14rem] mx-auto lg:mx-0"
         />
@@ -24,7 +24,12 @@ const Hero = () => {
             </a>
           </Button>
           <Button className="text-black font-Inter mt-4 bg-Celo-AD-yellow px-10 py-2 hover:bg-Celo-AD-yellow rounded-3xl">
-            <a href="mailto:daniel.kimotho@celo.org">Sponsor Us</a>
+            <a
+              href={"https://lu.ma/calendar/cal-SiR9cdTHKv60Ffa"}
+              target="_blank"
+            >
+              Sign-Up
+            </a>
           </Button>
         </div>
       </div>

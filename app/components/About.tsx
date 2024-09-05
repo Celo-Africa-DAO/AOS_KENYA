@@ -27,13 +27,8 @@ const About = () => {
               leaders from across the world to explore and shape the future of
               decentralized finance (DeFi) on the Celo blockchain.{" "}
             </p>
-            <Button className="hidden text-black lg:block font-Inter mt-10 bg-Celo-AD-yellow px-10 hover:bg-Celo-AD-yellow rounded-3xl">
-              <a
-                href={"https://lu.ma/calendar/cal-SiR9cdTHKv60Ffa"}
-                target="_blank"
-              >
-                Sign-Up
-              </a>
+            <Button className="text-black font-Inter mt-4 bg-Celo-AD-yellow px-10 py-2 hover:bg-Celo-AD-yellow rounded-3xl">
+              <a href="mailto:daniel.kimotho@celo.org">Sponsor Us</a>
             </Button>
           </div>
           <img src="Map.png" alt="map" className="w-180  sm:h-60" />
