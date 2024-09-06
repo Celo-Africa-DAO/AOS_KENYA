@@ -1,14 +1,14 @@
 import React from "react";
 import Section from "./ui/Section";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "./ui/accordion";
-import VelixEclips from "./ui/aos/icons/VelixEclips";
-import GradientBorder from "./ui/aos/GradientBorder";
-import SideModal from "./ui/SideModal";
+// import {
+//   Accordion,
+//   AccordionContent,
+//   AccordionItem,
+//   AccordionTrigger,
+// } from "./ui/accordion";
+// import VelixEclips from "./ui/aos/icons/VelixEclips";
+// import GradientBorder from "./ui/aos/GradientBorder";
+
 const FAQs = [
   {
     duration: "5:00 PM - 5:15 PM",

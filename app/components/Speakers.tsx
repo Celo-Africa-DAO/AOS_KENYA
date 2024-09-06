@@ -16,8 +16,8 @@ const GalleryItem: React.FC<GalleryItemProps> = ({ name, title, imageUrl }) => {
         alt={name}
         className="rounded-lg w-full h-[380px] object-cover"
       />
-      <h3 className="mt-4 font-semibold text-lg">{name}</h3>
-      <p className="text-sm text-gray-600">{title}</p>
+      <h3 className="mt-4 font-normal text-base">{name}</h3>
+      <p className="text-xs text-gray-600">{title}</p>
     </div>
   );
 };
