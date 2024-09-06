@@ -74,11 +74,11 @@ const Schedule = () => {
     <Section
       data-menuopened={true}
       className="!w-full"
-      containerClassName="flex flex-col justify-between items-center py-5 max-lg:p-5"
+      containerClassName="flex flex-col justify-between items-center pt-5 max-lg:p-5"
     >
       <div className="flex flex-col justify-center items-center pt-40 lg:pt-0 mb-10">
         <h2 className="font-gt-alpina text-4xl">
-          <p className="!font-[250]">Schedule celo gather</p>
+          <p className="!font-[250] italic">Schedule celo gather</p>
         </h2>
         <p className="text-velix-gray mt-2 text-center font-gt-alpina-trial italic">
           Get updated on our schedule

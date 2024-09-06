@@ -28,7 +28,7 @@ const About = () => {
               decentralized finance (DeFi) on the Celo blockchain.{" "}
             </p>
             <Button className="text-black font-Inter mt-4 bg-Celo-AD-yellow px-10 py-2 hover:bg-Celo-AD-yellow rounded-3xl">
-              <a href="mailto:daniel.kimotho@celo.org">Sponsor Us</a>
+              <a href="mailto:brisamukunde1@gmail.com">Sponsor Us</a>
             </Button>
           </div>
           <img src="Map.png" alt="map" className="w-180  sm:h-60" />

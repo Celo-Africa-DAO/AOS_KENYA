@@ -9,6 +9,7 @@ import Schedule from "./components/Schedule";
 import Why from "./components/why";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
+import { Sponsors } from "./components/Sponsors";
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,6 +37,7 @@ export default function Home() {
       <Speakers />
       <Why />
       <Schedule />
+      {/* <Sponsors/> */}
       <Footer />
       <hr className="text-black bg-black p-[0.5px]" />
       <div className=" pb-4 flex items-center justify-center w-full">

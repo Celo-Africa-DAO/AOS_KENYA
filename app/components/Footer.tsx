@@ -3,7 +3,7 @@ import Section from "./ui/Section";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 const Footer = () => {
-      const fakeArray = [
+      const brandSponsors = [
         { imageURL: "/img/celo.svg" },
         { imageURL: "/img/fonbnk.svg" },
         { imageURL: "/img/mento.svg" },
@@ -15,18 +15,22 @@ const Footer = () => {
       className="!w-full"
       containerClassName="py-0 my-20 lg:my-0 lg:py-20 max-lg:p-5 bg-[#efe8e0]"
     >
-      <div className="lg:!mb-10">
+      <div className="lg:!mb-10  flex flex-col justify-center items-center">
         <h2
           id="Sponsors"
-          className="font-gt-alpina-trial text-4xl pt-20 lg:pt-0 pb-10"
+          className="font-gt-alpina-trial text-4xl -mt-14 lg:mt-0 lg:pt-0 pb-10 "
         >
           <p className="!font-[250]">
             <i>Event Sponsors</i>
           </p>
         </h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-          {fakeArray.map((item, index) => (
-            <img key={index} src={item.imageURL} className="w-24 h-10 lg:w-40 lg:h-20" />
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+          {brandSponsors.map((item, index) => (
+            <img
+              key={index}
+              src={item.imageURL}
+              className="w-24 h-10 lg:w-40 lg:h-20"
+            />
           ))}
         </div>
       </div>

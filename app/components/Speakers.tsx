@@ -79,7 +79,7 @@ const Speakers: React.FC = () => {
       containerClassName="mb-0 pb-20 max-lg:p-5"
     >
       <h2 className="font-gt-alpina-trial text-4xl pb-10">
-        <p className="!font-[250]">Speakers</p>
+        <p className="!font-[250] italic">Speakers</p>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {items.map((item, index) => (
