@@ -72,6 +72,7 @@ const Schedule = () => {
   
   return (
     <Section
+      id="Schedule"
       data-menuopened={true}
       className="!w-full"
       containerClassName="flex flex-col justify-between items-center pt-5 max-lg:p-5"

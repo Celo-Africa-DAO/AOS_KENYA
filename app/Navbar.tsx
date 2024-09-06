@@ -42,7 +42,6 @@ export default function Navigation({
               <Link
                 key={link.to}
                 href={link.to}
-                target="_blank"
                 className="font-light font-inter text-base flex items-center hover:underline gap-1 relative after:absolute"
               >
                 {link.text}
