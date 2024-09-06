@@ -87,7 +87,7 @@ const Schedule = () => {
       </div>
       <iframe
         src={
-          "https://docs.google.com/spreadsheets/d/1X_w2EFfX1r6SYTY_BYKCJj2wEiJVn6tbL9mwI8szPJc/edit?gid=0#gid=0"
+          "https://docs.google.com/spreadsheets/d/1cEcr5WBcSMoCRlXc1v9UiMAL1W_gNYlQ9FoRJg0hV3g/edit?usp=sharing"
         }
         className="w-full lg:w-[90%] h-[600px] rounded-md"
         title="utu social connector"
